@@ -1,0 +1,111 @@
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+a{
+	text-decoration:none;
+}
+
+p,span{
+	display:inline-block;
+}
+
+body{
+	margin:50px;
+	
+	
+}
+
+.container{
+	border:2px solid red;
+	width:33%;
+	margin:auto;
+	padding:10px;
+	text-align:center;
+	border-radius: 0px 20px;
+	background-image:url('https://reshmi-02.github.io/Timer-task/images/img-2.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.heading{
+	margin-bottom:15px;
+	font-size:28px;
+}
+
+.timer{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:15px;
+	font-size:24px;
+}
+
+.buts{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+}
+
+.but{
+	padding:8px;
+}
+
+#hour{
+	background-color:red;
+	color:white;
+	padding:8px;
+	font-weight:bold;
+	border-radius:50px;
+}
+
+#minutes{
+	background-color:red;
+	color:white;
+	padding:8px;
+	font-weight:bold;
+	border-radius:50px;
+}
+
+#second{
+	background-color:red;
+	color:white;
+	padding:8px;
+	font-weight:bold;
+	border-radius:50px;
+}
+
+button {
+    border: none;
+	color:black;
+    cursor: pointer;
+	background-color:orange;
+}
+
+
+
+#pause{
+	color:black;
+	background-color:red;
+	border-radius: 0px 10px;
+	
+}
+
+#play{
+	color:black;
+	background-color:green;
+	border-radius: 0px 10px;
+}
+
+#refresh{
+	color:black;
+	background-color:yellow;
+	border-radius: 0px 10px;
+}
+
+
+

@@ -1,0 +1,44 @@
+
+
+<html>
+
+    <head>
+	
+	     <meta charset="UTF-8">
+		 <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+		 <title>Timer</title>
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		 <link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	
+	     <div class="container">
+		     <h2 class="heading">Timer</h2>
+			 <div class="timer">
+			     
+			     <div >
+				     <p id="hour">00</p>
+				     <span> : <span>
+				 </div>
+				 <div>
+				     <p id="minutes">00</p>
+					 <span> : <span>
+				 </div>
+				 <div>
+				     <p id="second">00</p>
+				 </div>
+				 
+			 </div>
+			 <div class="buts">
+			    <button onclick=stopping()><a href="#" class="fa fa-pause but" id="pause"></a></button>
+				<button onclick=playing()><a href="#" class="fa fa-play but" id="play"></a></button>
+				<button onclick=restart()><a href="#" class="fa fa-refresh but" id="refresh"></a></button>
+			 </div>
+		 </div>
+	
+	     <script src="main.js"></script>
+	</body>
+
+</html>
+
